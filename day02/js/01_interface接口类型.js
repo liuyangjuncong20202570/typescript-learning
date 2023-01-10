@@ -1,5 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+let obj2 = {
+    name: '1',
+    age: 18,
+    gay: false
+};
 let obj = {
     name: '张三',
     age: 18,

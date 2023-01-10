@@ -7,6 +7,15 @@ interface ObjItf {
   age: number
   score: number
 }
+// 给对象用接口（简便形式）
+interface ObjItf2 {
+  [idx: string]: number | string | boolean
+}
+let obj2: ObjItf2 = {
+  name: '1',
+  age: 18,
+  gay: false
+}
 
 let obj: ObjItf = {
   name: '张三',
